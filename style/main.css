@@ -16,9 +16,10 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 45px;
+  text-transform: uppercase;
   font-weight: bold;
-  margin: 0;
+  margin-top: 5px;
   display: block;
   float: left; }
 
@@ -322,73 +323,64 @@ hr {
     background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela8ptos.gif');
     background-size: 100%; }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela16ptos.gif');
     background-size: 100%; }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela32ptos.gif');
     background-size: 100%; }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela64ptos.gif');
     background-size: 100%; }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela128ptos.gif');
     background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 45px; }
+    }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela256ptos.gif');
     background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 45px; }
+    }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela512ptos.gif');
     background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 45px; }
+    }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 25px; } }
+        font-size: 0px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/gabriela1024ptos.gif');
     background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 35px; }
+     }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
     background: url(' ../tile-sets/cookie2048ptos.gif');
     background-size: 100%;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 35px; }
+    }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 15px; } }
+        font-size: 0px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #3c3a32;
-    font-size: 30px; }
+    background: url(' ../tile-sets/cookie2048ptos.gif');
+    background-size: 100%;
+    }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
-        font-size: 10px; } }
+        font-size: 0px; } }
 
 @-webkit-keyframes appear {
   0% {
