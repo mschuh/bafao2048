@@ -533,7 +533,7 @@ hr {
     margin: 20px 0;
     padding: 0 20px; }
 
-  h1.title {
+  h1.title, h2.title, h3.title, h4.title, h5.title {
     font-size: 27px;
     margin-top: 15px; }
 
